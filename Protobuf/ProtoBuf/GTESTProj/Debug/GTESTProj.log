@@ -1,0 +1,28 @@
+﻿Build started 11/16/2015 9:29:10 PM.
+     1>Project "C:\Users\OWner\Documents\Seng 330\A2\Programming\Protobuf\ProtoBuf\GTESTProj\GTESTProj.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (GTESTProj.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\OWner\Documents\Seng 330\A2\protbuff\github_src\protobuf-master\src" /I"C:\Users\OWner\Documents\Seng 330\A2\protbuff\protoc-2.6.1-win32\out" /I"C:\Users\OWner\Documents\Seng 330\A2\google test\gtest\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\ProtoBuf .pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\OWner\Documents\Seng 330\A2\protbuff\github_src\protobuf-master\src" /I"C:\Users\OWner\Documents\Seng 330\A2\protbuff\protoc-2.6.1-win32\out" /I"C:\Users\OWner\Documents\Seng 330\A2\google test\gtest\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ProtoBuf .pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ProtoBuf.cpp
+         ProtoBuf.cpp
+     1>c:\users\owner\documents\seng 330\a2\programming\protobuf\protobuf\gtestproj\protobuf.cpp(253): warning C4244: 'argument' : conversion from 'google::protobuf::uint64' to 'unsigned long', possible loss of data
+     1>c:\users\owner\documents\seng 330\a2\programming\protobuf\protobuf\gtestproj\protobuf.cpp(254): warning C4244: 'argument' : conversion from 'google::protobuf::uint64' to 'unsigned long', possible loss of data
+     1>c:\users\owner\documents\seng 330\a2\programming\protobuf\protobuf\gtestproj\protobuf.cpp(256): warning C4244: 'argument' : conversion from 'google::protobuf::uint64' to 'unsigned long', possible loss of data
+     1>c:\users\owner\documents\seng 330\a2\programming\protobuf\protobuf\gtestproj\protobuf.cpp(276): warning C4172: returning address of local variable or temporary
+     1>c:\users\owner\documents\seng 330\a2\programming\protobuf\protobuf\gtestproj\protobuf.cpp(287): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\owner\documents\seng 330\a2\programming\protobuf\protobuf\gtestproj\protobuf.cpp(486): warning C4244: 'argument' : conversion from 'google::protobuf::uint64' to 'unsigned long', possible loss of data
+     1>c:\users\owner\documents\seng 330\a2\programming\protobuf\protobuf\gtestproj\protobuf.cpp(487): warning C4244: 'argument' : conversion from 'google::protobuf::uint64' to 'unsigned long', possible loss of data
+     1>c:\users\owner\documents\seng 330\a2\programming\protobuf\protobuf\gtestproj\protobuf.cpp(489): warning C4244: 'argument' : conversion from 'google::protobuf::uint64' to 'unsigned long', possible loss of data
+     1>c:\users\owner\documents\seng 330\a2\programming\protobuf\protobuf\gtestproj\protobuf.cpp(505): warning C4172: returning address of local variable or temporary
+     1>c:\users\owner\documents\seng 330\a2\programming\protobuf\protobuf\gtestproj\protobuf.cpp(516): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\OWner\Documents\Seng 330\A2\Programming\Protobuf\ProtoBuf\Debug\ProtoBuf .exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\OWner\Documents\Seng 330\A2\protbuff\src\vsprojects\Release" /LIBPATH:"C:\Users\OWner\Documents\Seng 330\A2\google test\gtest\msvc\gtest\Debug" gtestd.lib libprotobuf.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\OWner\Documents\Seng 330\A2\Programming\Protobuf\ProtoBuf\Debug\ProtoBuf .pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\OWner\Documents\Seng 330\A2\Programming\Protobuf\ProtoBuf\Debug\ProtoBuf .lib" /MACHINE:X86 Debug\ProtoBuf.obj
+         Debug\stdafx.obj
+     1>gtestd.lib(gtest-all.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'gtestd.lib(gtest-all.obj)' or at 'C:\Users\OWner\Documents\Seng 330\A2\Programming\Protobuf\ProtoBuf\Debug\vc120.pdb'; linking object as if no debug info
+         GTESTProj.vcxproj -> C:\Users\OWner\Documents\Seng 330\A2\Programming\Protobuf\ProtoBuf\Debug\ProtoBuf .exe
+     1>Done Building Project "C:\Users\OWner\Documents\Seng 330\A2\Programming\Protobuf\ProtoBuf\GTESTProj\GTESTProj.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.31
