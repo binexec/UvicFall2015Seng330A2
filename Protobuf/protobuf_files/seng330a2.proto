@@ -1,0 +1,52 @@
+package seng330a2;
+
+message Member
+{	
+	enum Type
+	{
+		CUSTOMER  = 0;
+		STAFF = 1;
+	}
+	
+	required string name = 1;
+	required string address = 2;
+	required uint64 membership_id = 3;
+	required uint64 bracelet_id = 4;
+	required Type member_type = 5;
+	
+	optional Customer customer = 6;
+	optional Staff staff = 7;
+}
+
+message Customer
+{
+	enum SubscriptionLevel
+	{
+		INACTIVE = 0;
+		BASIC = 1;
+		PREMIUM = 2;
+		DELUXE = 3;
+	}
+	
+	required uint64 credit_card_num = 1;
+	required int32 gym_credits = 2;
+	required SubscriptionLevel subscription_level = 3;
+}
+
+message Staff
+{
+	enum Clearance
+	{
+		GENERAL = 0;
+		MANAGER = 1;
+		ADMINISTRATOR = 2;
+	}
+	
+	required uint64 employee_id = 1;
+	required Clearance staff_clearance = 3;
+}
+
+message MemberList
+{
+	repeated Member member = 1;
+}
